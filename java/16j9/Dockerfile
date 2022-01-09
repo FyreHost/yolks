@@ -20,7 +20,7 @@
 # SOFTWARE.
 #
 
-FROM        --platform=$TARGETOS/$TARGETARCH ibm-semeru-runtimes:open-16-jdk
+FROM        --platform=$TARGETOS/$TARGETARCH adoptopenjdk/openjdk16-openj9:debianslim
 
 LABEL       author="Matthew Penner" maintainer="matthew@pterodactyl.io"
 
