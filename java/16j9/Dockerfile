@@ -24,7 +24,7 @@ FROM        --platform=$TARGETOS/$TARGETARCH adoptopenjdk/openjdk16-openj9:debia
 
 LABEL       author="Matthew Penner" maintainer="matthew@pterodactyl.io"
 
-LABEL       org.opencontainers.image.source="https://github.com/pterodactyl/yolks"
+LABEL       org.opencontainers.image.source="https://github.com/fyrehost/yolks"
 LABEL       org.opencontainers.image.licenses=MIT
 
 RUN 		apt-get update -y \
